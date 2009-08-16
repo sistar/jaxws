@@ -1,0 +1,32 @@
+cd ~/wspcs/jaxws/x509$
+
+
+
+keytool -genkey -alias numiga -keystore privatestore.jks -keypass numigaKeypairPassword -storepass keyStorePassword -dname "cn=numiga" -keyalg RSA
+keytool -selfcert -alias numiga -keystore privatestore.jks -storepass keyStorePassword -keypass numigaKeypairPassword
+keytool -export -alias numiga -file numiga.key.rsa -keystore privatestore.jks -storepass keyStorePassword
+keytool -import -alias numiga -file numiga.key.rsa -keystore publicstore.jks -storepass keyStorePassword
+
+encryption startet 
+
+keytool -genkey -alias numigaServicekey -keyalg RSA -sigalg SHA1withRSA -keypass skpass -storepass keyStorePassword -keystore server_keystore.jks -dname "cn=localhost"
+keytool -genkey -alias numigaClientkey -keyalg RSA -sigalg SHA1withRSA -keypass ckpass -storepass keyStorePassword -keystore client_sign_keystore.jks -dname "cn=clientuser"
+keytool -genkey -alias unauthorizedkey -keyalg RSA -sigalg SHA1withRSA -keypass ukpass -storepass keyStorePassword -keystore unauthIdentity.jks -dname "cn=unauthorizedkey"
+
+transfer des client pubkey in den server keystore:
+keytool -export -rfc -keystore client_sign_keystore.jks -storepass keyStorePassword -alias numigaClientkey -file MyClient.cer
+keytool -import -trustcacerts -keystore server_keystore.jks -storepass keyStorePassword -alias numigaClientkey -file MyClient.cer -noprompt
+
+transfer des server pubkey in den client keystore:
+keytool -export -rfc -keystore server_keystore.jks -storepass keyStorePassword -alias numigaServicekey -file MyService.cer
+keytool -import -trustcacerts -keystore client_sign_keystore.jks -storepass keyStorePassword -alias numigaServicekey -file MyService.cer -noprompt
+
+
+
+lrwxrwxrwx 1 rsi rsi   16 2009-08-14 14:37 client_sign_keystore.jks -> privatestore.jks
+
+-rw-r--r-- 1 rsi rsi 1184 2009-08-13 16:19 privatestore.jks
+-rw-r--r-- 1 rsi rsi  476 2009-08-13 16:21 publicstore.jks
+-rw-r--r-- 1 rsi rsi  501 2009-08-13 16:26 readme.txt
+lrwxrwxrwx 1 rsi rsi   15 2009-08-13 16:52 server_keystore.jks -> publicstore.jks
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.xml.namespace.QName"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Service"/>
+<fullyQualifiedTypeName name="org.apache.cxf.binding.soap.SoapBinding"/>
+<fullyQualifiedTypeName name="javax.xml.ws.soap.SOAPBinding"/>
+<fullyQualifiedTypeName name="de.oc.ws.simple.ws.client.HelloWorld"/>
+<fullyQualifiedTypeName name="de.oc.ws.simple.ws.client.Person"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="org.hamcrest.core.Is"/>
+<fullyQualifiedTypeName name="org.junit.matchers.StringContains"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.apache.ws.security.handler.WSHandlerConstants"/>
+<fullyQualifiedTypeName name="org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="javax.security.auth.callback.CallbackHandler"/>
+<fullyQualifiedTypeName name="org.apache.ws.security.WSPasswordCallback"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="org.example.contract.doubleit.DoubleItPortType"/>
+<fullyQualifiedTypeName name="javax.xml.ws.handler.MessageContext"/>
+<fullyQualifiedTypeName name="javax.annotation.Resource"/>
+<fullyQualifiedTypeName name="javax.xml.ws.WebServiceContext"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+</qualifiedTypeNameHistroy>

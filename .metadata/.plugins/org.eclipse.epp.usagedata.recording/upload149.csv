@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1250318867514
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1250318867870
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.newWizard",1250318868335
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318868408
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250318887994
+no handler,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.rename",1250318892636
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1250318908223
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250318980086
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250318980781
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250319020480
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250319021437
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250319056837
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1250319058980
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250319106395
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250319126320
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250319126515
+error,log,,,"Build errors for double.it.service",1250319130695
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250319136760
+executed,command,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.run",1250319140937
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250319144084
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250319146749
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250319146941
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250319147276
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250319149526
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250319157778

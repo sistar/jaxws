@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Task repository link provider failed: ""null""",1250267004516
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250267004551
+error,log,,,"Task repository link provider failed: ""null""",1250267004551
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250267004759
+error,log,,,"Task repository link provider failed: ""null""",1250267004759
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250267014719
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1250267018046
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250267018180
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250267021567
+error,log,,,"Task repository link provider failed: ""null""",1250267021567
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250267021774
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250267021858
+error,log,,,"Task repository link provider failed: ""null""",1250267021858
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250267022387
+error,log,,,"Task repository link provider failed: ""null""",1250267022387
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250267023133
+executed,command,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1250267039157
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250267040667
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250267041152
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250267053031
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250267059730
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250267064178
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250267071038
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.open.hierarchy",1250267080868
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250267080962

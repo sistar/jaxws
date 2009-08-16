@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250175810267
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250175811253
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250175818916
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250175834086
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250175839844
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250175841843
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.format",1250175852999
+executed,command,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1250175873890
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250175879575
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250175891991
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250175899076
+executed,command,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1250175930336
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250175931954
+executed,command,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1250175953232
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250175955695
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250175956256
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250175957658
+error,log,,,"Task repository link provider failed: ""null""",1250175957659
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250175957902
+error,log,,,"Task repository link provider failed: ""null""",1250175957902
+executed,command,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1250175957956
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250175961102
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250175961628
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.format",1250175967174
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250175968125

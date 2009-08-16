@@ -1,0 +1,7 @@
+package de.opitzconsulting.demo;
+
+public class DiscountCalculator {
+	public double calcFinalPrice(String custId, double basePrice) {
+		return 2.0d;
+	}
+}

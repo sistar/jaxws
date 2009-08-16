@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Task repository link provider failed: ""null""",1250259937899
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250259942717
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250259986368
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250259987356
+executed,command,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui.format.document",1250259998380
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260005686
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260009796
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260011231
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260017613
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250260032859
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250260044663
+error,log,,,"Task repository link provider failed: ""null""",1250260044663
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250260044688
+error,log,,,"Task repository link provider failed: ""null""",1250260044688
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250260044714
+error,log,,,"Task repository link provider failed: ""null""",1250260044714
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250260044739
+error,log,,,"Task repository link provider failed: ""null""",1250260044741
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250260044762
+error,log,,,"Task repository link provider failed: ""null""",1250260044762
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250260044779
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250260044780
+error,log,,,"Task repository link provider failed: ""null""",1250260044781
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250260044790
+error,log,,,"Task repository link provider failed: ""null""",1250260044790

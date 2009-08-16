@@ -1,0 +1,17 @@
+package org.doubleit.service;
+
+import javax.jws.WebService;
+
+import org.example.contract.doubleit.DoubleItPortType;
+
+@WebService(targetNamespace = "http://www.example.org/contract/DoubleIt", 
+		endpointInterface = "org.example.contract.doubleit.DoubleItPortType",
+		portName="DoubleItSOAP")
+public class DoubleItServiceImpl implements DoubleItPortType {
+
+	@Override
+	public int doubleIt(int numberToDouble) {
+		return numberToDouble * 2;
+	}
+
+}

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+closed,editor,org.eclipse.wst.xml.ui,1.1.0.v200905242047,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1250261474083
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250261477786
+opened,editor,org.eclipse.wst.xml.ui,1.1.0.v200905242047,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1250261477956
+activated,editor,org.eclipse.wst.xml.ui,1.1.0.v200905242047,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1250261478302
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250261528446
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250261530298
+opened,editor,com.springsource.sts.config.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.config.ui.editors.SpringConfigEditor",1250261545952
+activated,editor,com.springsource.sts.config.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.config.ui.editors.SpringConfigEditor",1250261546138
+started,bundle,com.springsource.sts.ide.osgi,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.ide.osgi",1250261546438
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.newWizard",1250261546484
+started,bundle,com.springsource.sts.server.quickfix,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.server.quickfix",1250261546549
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250261546584
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250261548743
+started,bundle,org.springframework.ide.eclipse.beans.core.autowire,2.2.5.200906302108-CI-R3335-B388,"org.springframework.ide.eclipse.beans.core.autowire",1250261549219
+started,bundle,org.springframework.ide.eclipse.security,2.2.5.200906302108-CI-R3335-B388,"org.springframework.ide.eclipse.security",1250261549480
+started,bundle,com.springsource.sts.bestpractices,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.bestpractices",1250261549605
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250261550429
+activated,editor,org.eclipse.wst.xml.ui,1.1.0.v200905242047,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1250261584798
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250261589012
+error,log,,,"Task repository link provider failed: ""null""",1250261589013
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250261589041
+error,log,,,"Task repository link provider failed: ""null""",1250261589042
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250261589064
+error,log,,,"Task repository link provider failed: ""null""",1250261589065
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250261589082

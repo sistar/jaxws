@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250259492414
+error,log,,,"Task repository link provider failed: ""null""",1250259492415
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250259492657
+error,log,,,"Task repository link provider failed: ""null""",1250259492657
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250259492674
+error,log,,,"Task repository link provider failed: ""null""",1250259492675
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250259492691
+error,log,,,"Task repository link provider failed: ""null""",1250259492692
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250259492775
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250259492780
+error,log,,,"Task repository link provider failed: ""null""",1250259492780
+activated,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250259493982
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250259506107
+executed,command,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui.format.document",1250259507380
+activated,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250259516963
+activated,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250259522094
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250259541804
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250259563633
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.newWizard",1250259586975
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250259587023
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250259591094
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.newWizard",1250259598685
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250259598725
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250259602463
+started,bundle,org.eclipse.wst.wsdl.ui,1.2.202.v200904271449,"org.eclipse.wst.wsdl.ui",1250259605221

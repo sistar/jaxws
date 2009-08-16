@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.refresh",1250262172897
+activated,editor,org.eclipse.wst.xml.ui,1.1.0.v200905242047,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1250262179438
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1250262182184
+activated,editor,org.eclipse.wst.xml.ui,1.1.0.v200905242047,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1250262221861
+activated,editor,com.springsource.sts.config.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.config.ui.editors.SpringConfigEditor",1250262226530
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1250262229277
+opened,editor,com.springsource.sts.config.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.config.ui.editors.SpringConfigEditor",1250262252568
+activated,editor,com.springsource.sts.config.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.config.ui.editors.SpringConfigEditor",1250262252767
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250262259241
+error,log,,,"Task repository link provider failed: ""null""",1250262259242
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250262259285
+error,log,,,"Task repository link provider failed: ""null""",1250262259286
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250262259318
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250262259322
+error,log,,,"Task repository link provider failed: ""null""",1250262259322
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250262259338
+error,log,,,"Task repository link provider failed: ""null""",1250262259338
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250262259354
+error,log,,,"Task repository link provider failed: ""null""",1250262259354
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250262259374
+error,log,,,"Task repository link provider failed: ""null""",1250262259375
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250262259384
+error,log,,,"Task repository link provider failed: ""null""",1250262259384
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1250262266811
+activated,editor,com.springsource.sts.config.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.config.ui.editors.SpringConfigEditor",1250262290561

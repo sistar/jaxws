@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250265283561
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250265284725
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250265312010
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250265327073
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250265357886
+activated,editor,org.eclipse.wst.wsdl.ui,1.2.202.v200904271449,"org.eclipse.wst.wsdl.ui.internal.WSDLEditor",1250265365398
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250265366676
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250265366752
+error,log,,,"Task repository link provider failed: ""null""",1250265366771
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250265367453
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250265384531
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250265392674
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250265394152
+executed,command,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui.format.document",1250265395620
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250265396590
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250265401121
+executed,command,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.run",1250265404682
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250265405598
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250265406945
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250265408521
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250265408616
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250265409094
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250265410941
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250265418055
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250265418330

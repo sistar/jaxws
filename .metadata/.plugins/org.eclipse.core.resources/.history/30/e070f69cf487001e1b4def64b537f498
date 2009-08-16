@@ -1,0 +1,7 @@
+package de.opitzconsulting.demo;
+
+public interface CustDiscountCalculation {
+
+	public double calcFinalPrice(String custId, double basePrice);
+
+}

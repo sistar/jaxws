@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250257904936
+activated,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250257905107
+executed,command,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui.format.document",1250257917266
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250257926628
+error,log,,,"Task repository link provider failed: ""null""",1250257926628
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250257926649
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250257926654
+error,log,,,"Task repository link provider failed: ""null""",1250257926655
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250257926689
+error,log,,,"Task repository link provider failed: ""null""",1250257926689
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250257926716
+error,log,,,"Task repository link provider failed: ""null""",1250257926717
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250257926731
+error,log,,,"Task repository link provider failed: ""null""",1250257926732
+activated,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250257929153
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250257935238
+executed,command,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui.format.document",1250257943598
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250257944848
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250257947488
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.103.v200905151848,"org.eclipse.wst.ws.service.policy",1250257947581
+started,bundle,org.eclipse.wst.ws,1.1.103.v200903111822,"org.eclipse.wst.ws",1250257947633
+started,bundle,org.maven.ide.eclipse.refactoring,0.9.8.200905041414,"org.maven.ide.eclipse.refactoring",1250257948078
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250257957462
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250257990900
+error,log,,,"Can't update view",1250257992078

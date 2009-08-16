@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.100.v200809240707,"org.eclipse.wst.jsdt.manipulation",1250258073530
+started,bundle,org.eclipse.wst.jsdt.ui,1.0.200.v200905242047,"org.eclipse.wst.jsdt.ui",1250258073718
+started,bundle,org.springframework.ide.eclipse.beans.ui.refactoring,2.2.5.200906302108-CI-R3335-B388,"org.springframework.ide.eclipse.beans.ui.refactoring",1250258074228
+error,log,,,"Internal Error",1250258074731
+error,log,,,"Can not delete resource. Resource does not exist.",1250258074732
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.100.v20090604,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1250258078816
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1250258078816
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258078932
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258081598
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258094420
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258106963
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.newWizard",1250258189446
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258189489
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258197981
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258233300
+error,log,,,"Resource is out of sync with the file system: '/double.it/pom.xml'.",1250258234515
+error,log,,,"Unable to update /home/rsi/wspcs/jaxws/double.it/pom.xml",1250258234518
+started,bundle,org.eclipse.hyades.execution,4.4.300.v200905160100,"org.eclipse.hyades.execution",1250258236273
+started,bundle,org.eclipse.tptp.platform.models.hierarchy,4.6.0.v200905130952,"org.eclipse.tptp.platform.models.hierarchy",1250258236444
+started,bundle,org.eclipse.tptp.platform.common.ui,4.4.200.v200906031533,"org.eclipse.tptp.platform.common.ui",1250258236597
+started,bundle,org.eclipse.tptp.platform.iac.administrator,4.4.300.v200905160100,"org.eclipse.tptp.platform.iac.administrator",1250258236608
+error,log,,,"Cannot resolve IAC bundle ID org.eclipse.tptp.platform.ac.linux_em64t",1250258236637
+error,log,,,"Cannot resolve IAC bundle ID org.eclipse.tptp.platform.ac.linux_em64t",1250258236639
+error,log,,,"Access to IAC configuration file is denied.",1250258236639
+started,bundle,org.eclipse.tptp.platform.common,4.3.300.v200905160100,"org.eclipse.tptp.platform.common",1250258236639

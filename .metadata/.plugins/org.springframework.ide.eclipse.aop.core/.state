@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SimpleWSClient"/>
+<aop-project name="double.it"/>
+<aop-project name="SimpleWS"/>
+<aop-project name="double.it.service"/>
+</aop-reference-model>

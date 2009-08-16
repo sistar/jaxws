@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260187540
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260193089
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260200210
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250260214426
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250260219374
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260226201
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260229695
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260233220
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260275856
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260280670
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260297238
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260304184
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260307802
+executed,command,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui.format.document",1250260312369
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250260313884
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250260346460
+error,log,,,"Task repository link provider failed: ""null""",1250260346460
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250260346713
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250260351812
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250260355239
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250260363092
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250260363832
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250260376817
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250260378040
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250260378563

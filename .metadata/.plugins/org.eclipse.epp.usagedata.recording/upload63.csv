@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250195701582
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250195706503
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250195707413
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250195715244
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250195716245
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250235677314
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250235679527
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250239125407
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250239126792
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250239175583
+activated,view,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit.ResultView",1250239179834
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250239183502
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250239223922
+executed,command,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit.junitShortcut.rerunLast",1250239226987
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250239233465
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250239258493
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250239258499
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250239353450
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.window.maximizePart",1250239361380
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.window.maximizePart",1250239364270
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250239366944
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.window.maximizePart",1250239368903
+error,log,,,"Unhandled event loop exception",1250239378023
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250239386732
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250239390634

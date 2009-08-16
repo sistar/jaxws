@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Invalid preference page path: FUSE Services Framework",1250158261693
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1250158262272
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1250158262364
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1250158262497
+started,bundle,org.eclipse.jem.workbench,2.0.200.v200810300900,"org.eclipse.jem.workbench",1250158430604
+started,bundle,org.eclipse.jst.j2ee.ejb,1.1.300.v200904230730,"org.eclipse.jst.j2ee.ejb",1250158431609
+started,bundle,org.eclipse.jst.j2ee.jca,1.1.300.v200903120000,"org.eclipse.jst.j2ee.jca",1250158431615
+started,bundle,org.eclipse.jst.jee.ejb,1.0.200.v200810230716,"org.eclipse.jst.jee.ejb",1250158431619
+started,bundle,org.eclipse.jst.jee.web,1.0.200.v200904130912,"org.eclipse.jst.jee.web",1250158431621
+started,bundle,org.eclipse.xsd,2.5.0.v200906151043,"org.eclipse.xsd",1250158431789
+started,bundle,org.eclipse.wst.jsdt.web.core,1.0.200.v200905120445,"org.eclipse.wst.jsdt.web.core",1250158433442
+started,bundle,org.eclipse.jst.ws.cxf.core,0.4.3.v200905051630,"org.eclipse.jst.ws.cxf.core",1250158433607
+started,bundle,org.eclipse.wst.command.env,1.0.408.v200903110045,"org.eclipse.wst.command.env",1250158433611
+started,bundle,org.eclipse.jst.ws.jaxws.core,0.5.2.v200904302140,"org.eclipse.jst.ws.jaxws.core",1250158433614
+started,bundle,org.eclipse.jdt.apt.core,3.3.200.v20090528-1135,"org.eclipse.jdt.apt.core",1250158433620
+started,bundle,org.eclipse.jst.jee.ui,1.0.200.v200905242144,"org.eclipse.jst.jee.ui",1250158433841
+started,bundle,org.maven.ide.eclipse.wtp,0.9.8.200905041414,"org.maven.ide.eclipse.wtp",1250158434356
+started,bundle,org.eclipse.jst.j2ee.navigator.ui,1.1.300.v200903120000,"org.eclipse.jst.j2ee.navigator.ui",1250158434463
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.3,"org.tigris.subversion.clientadapter.javahl",1250158435090
+started,bundle,org.tigris.subversion.clientadapter.svnkit,1.6.2,"org.tigris.subversion.clientadapter.svnkit",1250158435171
+error,log,,,"Failed while installing CXF 2.x Web Services 1.0.",1250158435180
+started,bundle,org.tmatesoft.svnkit,1.3.0.5847,"org.tmatesoft.svnkit",1250158435315
+started,bundle,org.springframework.ide.eclipse.webflow.ui,2.2.5.200906302108-CI-R3335-B388,"org.springframework.ide.eclipse.webflow.ui",1250158435834
+started,bundle,org.springframework.ide.eclipse.webflow.core,2.2.5.200906302108-CI-R3335-B388,"org.springframework.ide.eclipse.webflow.core",1250158435894
+started,bundle,org.eclipse.pde.core,3.5.0.v20090602,"org.eclipse.pde.core",1250158436104

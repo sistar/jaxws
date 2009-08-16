@@ -1,0 +1,54 @@
+package de.opitzconsulting.demo;
+
+public class CustDiscountCalculationProxy implements de.opitzconsulting.demo.CustDiscountCalculation {
+  private String _endpoint = null;
+  private de.opitzconsulting.demo.CustDiscountCalculation custDiscountCalculation = null;
+  
+  public CustDiscountCalculationProxy() {
+    _initCustDiscountCalculationProxy();
+  }
+  
+  public CustDiscountCalculationProxy(String endpoint) {
+    _endpoint = endpoint;
+    _initCustDiscountCalculationProxy();
+  }
+  
+  private void _initCustDiscountCalculationProxy() {
+    try {
+      custDiscountCalculation = (new de.opitzconsulting.demo.DiscountCalculatorServiceLocator()).getDiscountCalculatorPort();
+      if (custDiscountCalculation != null) {
+        if (_endpoint != null)
+          ((javax.xml.rpc.Stub)custDiscountCalculation)._setProperty("javax.xml.rpc.service.endpoint.address", _endpoint);
+        else
+          _endpoint = (String)((javax.xml.rpc.Stub)custDiscountCalculation)._getProperty("javax.xml.rpc.service.endpoint.address");
+      }
+      
+    }
+    catch (javax.xml.rpc.ServiceException serviceException) {}
+  }
+  
+  public String getEndpoint() {
+    return _endpoint;
+  }
+  
+  public void setEndpoint(String endpoint) {
+    _endpoint = endpoint;
+    if (custDiscountCalculation != null)
+      ((javax.xml.rpc.Stub)custDiscountCalculation)._setProperty("javax.xml.rpc.service.endpoint.address", _endpoint);
+    
+  }
+  
+  public de.opitzconsulting.demo.CustDiscountCalculation getCustDiscountCalculation() {
+    if (custDiscountCalculation == null)
+      _initCustDiscountCalculationProxy();
+    return custDiscountCalculation;
+  }
+  
+  public double calcFinalPrice(java.lang.String custId, double basePrice) throws java.rmi.RemoteException{
+    if (custDiscountCalculation == null)
+      _initCustDiscountCalculationProxy();
+    return custDiscountCalculation.calcFinalPrice(custId, basePrice);
+  }
+  
+  
+}

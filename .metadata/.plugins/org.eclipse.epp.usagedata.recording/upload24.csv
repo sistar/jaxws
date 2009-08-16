@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163634983
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250163640140
+error,log,,,"Task repository link provider failed: ""null""",1250163640140
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250163640144
+error,log,,,"Task repository link provider failed: ""null""",1250163640145
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.properties",1250163679317
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163679438
+error,log,,,"Plug-in 'org.eclipse.ajdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.eclipse.ajdt.ui.action.pushin",1250163684684
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163688927
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163710232
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163718604
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1250163720151
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163720206
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163732744
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1250163734962
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163735029
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163742580
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.newWizard",1250165542608
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250165542696
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250165547931
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250165712499
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.newWizard",1250166537030
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250166537091
+opened,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250166552988
+activated,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250166553258

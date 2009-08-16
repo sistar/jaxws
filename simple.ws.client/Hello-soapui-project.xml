@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project name="Hello" resourceRoot="" soapui-version="3.0.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="HelloWorldImplServiceSoapBinding" type="wsdl" bindingName="{http://client.ws.simple.ws.oc.de/}HelloWorldImplServiceSoapBinding" soapVersion="1_1" anonymous="optional" definition="http://localhost:8080/simple.ws.client/HelloWorld?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://localhost:8080/simple.ws.client/HelloWorld?wsdl"><con:part><con:url>http://localhost:8080/simple.ws.client/HelloWorld?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="HelloWorldImplService" targetNamespace="http://client.ws.simple.ws.oc.de/" xmlns:ns1="http://cxf.apache.org/bindings/xformat" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://client.ws.simple.ws.oc.de/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://client.ws.simple.ws.oc.de/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="sayHi" type="tns:sayHi"/>
+      <xs:element name="sayHiResponse" type="tns:sayHiResponse"/>
+      <xs:complexType name="sayHi">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="tns:person"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="person">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="first" type="xs:string"/>
+          <xs:element minOccurs="0" name="last" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="sayHiResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="sayHi">
+    <wsdl:part element="tns:sayHi" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="sayHiResponse">
+    <wsdl:part element="tns:sayHiResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="HelloWorld">
+    <wsdl:operation name="sayHi">
+      <wsdl:input message="tns:sayHi" name="sayHi"></wsdl:input>
+      <wsdl:output message="tns:sayHiResponse" name="sayHiResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HelloWorldImplServiceSoapBinding" type="tns:HelloWorld">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="sayHi">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="sayHi">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="sayHiResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HelloWorldImplService">
+    <wsdl:port binding="tns:HelloWorldImplServiceSoapBinding" name="HelloWorldImplPort">
+      <soap:address location="http://localhost:8080/simple.ws.client/HelloWorld"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/simple.ws.client/HelloWorld</con:endpoint></con:endpoints><con:operation isOneWay="false" action="" name="sayHi" bindingOperationName="sayHi" type="Request-Response" outputName="sayHiResponse" inputName="sayHi" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1" outgoingWss=""><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/simple.ws.client/HelloWorld</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.ws.simple.ws.oc.de/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:sayHi>
+         <!--Optional:-->
+         <arg0>
+            <!--Optional:-->
+            <first>Ralf</first>
+            <!--Optional:-->
+            <last>Sigmund</last>
+         </arg0>
+      </cli:sayHi>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://client.ws.simple.ws.oc.de/HelloWorld/sayHi"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:testSuite name="HelloWorldImplServiceSoapBinding TestSuite"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="sayHi TestCase" searchProperties="true" id="3cb4aea5-80bb-4c61-8ebc-194e6a766d92"><con:settings/><con:testStep type="request" name="sayHi"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>HelloWorldImplServiceSoapBinding</con:interface><con:operation>sayHi</con:operation><con:request name="sayHi" outgoingWss="hans"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/simple.ws.client/HelloWorld</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://client.ws.simple.ws.oc.de/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:sayHi>
+         <!--Optional:-->
+         <arg0>
+            <!--Optional:-->
+            <first>Hans</first>
+            <!--Optional:-->
+            <last>Meier2</last>
+         </arg0>
+      </cli:sayHi>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig action="http://client.ws.simple.ws.oc.de/HelloWorld/sayHi" mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer><con:crypto><con:source>/home/rsi/wspcs/jaxws/x509/privatestore.jks</con:source><con:password>keyStorePassword</con:password><con:defaultAlias>numiga</con:defaultAlias><con:aliasPassword>numigaKeypairPassword</con:aliasPassword></con:crypto><con:outgoing actor=""><con:name>hans</con:name><con:username>hans</con:username><con:password>geheim</con:password><con:entry type="Username"><con:configuration><addCreated>false</addCreated><addNonce>false</addNonce><passwordType>PasswordText</passwordType></con:configuration></con:entry><con:entry type="Signature" username="numiga"><con:configuration><crypto>privatestore.jks</crypto><keyIdentifierType>3</keyIdentifierType><signatureAlgorithm>http://www.w3.org/2000/09/xmldsig#rsa-sha1</signatureAlgorithm><signatureCanonicalization/><useSingleCert>false</useSingleCert></con:configuration></con:entry></con:outgoing></con:wssContainer></con:soapui-project>

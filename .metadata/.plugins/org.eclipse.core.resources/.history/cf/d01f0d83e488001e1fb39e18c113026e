@@ -1,0 +1,5 @@
+package org.doubleit.service;
+
+public class DoubleItServiceImpl {
+
+}

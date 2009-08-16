@@ -1,0 +1,23 @@
+package de.opitz_consulting.demo;
+
+import static org.junit.Assert.*;
+
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
+
+import org.junit.Test;
+
+public class SimpleWSClientTest {
+
+	QName serviceName = new QName("http://demo.opitzconsulting.de/",
+			"DiscountCalculatorService");
+	QName portName = new QName("http://demo.opitzconsulting.de/",
+	"DiscountCalculatorPort");
+	Service service = Service.create(serviceName);
+	
+	@Test
+	public void testServiceAv() throws Exception {
+		assertNotNull(service);
+	}
+
+}

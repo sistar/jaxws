@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.hyades.trace.ui,4.5.0.v200905281551,"org.eclipse.hyades.trace.ui",1250258241746
+opened,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250258258870
+activated,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250258259043
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258262083
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258263976
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250258343485
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258356136
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258379046
+error,log,,,"Resource is out of sync with the file system: '/double.it/pom.xml'.",1250258380233
+error,log,,,"Unable to update /home/rsi/wspcs/jaxws/double.it/pom.xml",1250258380236
+started,bundle,org.eclipse.ant.ui,3.4.0.v20090520,"org.eclipse.ant.ui",1250258385725
+error,log,,,"Warning: Detected recursive attempt by part org.maven.ide.eclipse.editor.MavenPomEditor to create itself (this is probably, but not necessarily, a bug)",1250258385880
+opened,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250258386068
+activated,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250258386240
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250258395010
+opened,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250258401273
+activated,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250258401446
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250258413866
+error,log,,,"Task repository link provider failed: ""null""",1250258413866
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250258413925
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250258413954
+error,log,,,"Task repository link provider failed: ""null""",1250258413954
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250258414019
+error,log,,,"Task repository link provider failed: ""null""",1250258414020
+activated,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250258415179

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170824370
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250170824417
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250170835896
+activated,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250170847353
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250170849599
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250170859518
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250170907450
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250170916822
+error,log,,,"Task repository link provider failed: ""null""",1250170916823
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250170916850
+error,log,,,"Task repository link provider failed: ""null""",1250170916850
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250170916864
+error,log,,,"Task repository link provider failed: ""null""",1250170916864
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250170917148
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250170919602
+executed,command,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui.format.document",1250170920674
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250170921926
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170929783
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170942107
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250170947569
+executed,command,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.run",1250170958000
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170959805
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250170959828
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250170960887
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170961787

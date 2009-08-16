@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318142407
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318306661
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318318269
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318363288
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318371856
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318372787
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318374202
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318501842
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250318526887
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1250318533262
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1250318534496
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.format",1250318537807
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250318564140
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318573584
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318716441
+activated,editor,com.springsource.sts.config.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.config.ui.editors.SpringConfigEditor",1250318721379
+executed,command,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui.format.document",1250318732929
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250318734595
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250318741838
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250318809404
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318814738
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.newWizard",1250318842121
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318842242
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250318844993
+error,log,,,"Build errors for double.it.service",1250318855408

@@ -1,0 +1,5 @@
+package de.oc.ws.simple.ws.client;
+
+public class Person {
+
+}

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250267179930
+error,log,,,"Task repository link provider failed: ""null""",1250267179931
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250267180074
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250267180106
+error,log,,,"Task repository link provider failed: ""null""",1250267180106
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250267180118
+error,log,,,"Task repository link provider failed: ""null""",1250267180119
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250267183678
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.format",1250267186293
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250267187607
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.format",1250267192970
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250267194316
+executed,command,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1250267196993
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1250267207367
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1250267208216
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.open.editor",1250267208245
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250267214767
+closed,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1250267214768
+executed,command,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1250267220712
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250267221849
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250267222472
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250267225761
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250267275600
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250267276913
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250312775093

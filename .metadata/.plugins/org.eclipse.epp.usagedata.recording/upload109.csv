@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250260044800
+error,log,,,"Task repository link provider failed: ""null""",1250260044800
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250260044809
+error,log,,,"Task repository link provider failed: ""null""",1250260044810
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250260053306
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250260060348
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250260064993
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260068006
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260079165
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260089982
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260092502
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260108835
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260112652
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250260117360
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250260121520
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250260132199
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250260138382
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250260142366
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260151452
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260160020
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260163098
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260164147
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260177638
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260180792
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250260184903

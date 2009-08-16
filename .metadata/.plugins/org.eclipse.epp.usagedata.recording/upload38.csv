@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170249118
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250170251893
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.navigate.collapseAll",1250170251908
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170259236
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250170266505
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.newWizard",1250170300859
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170300940
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250170301108
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250170301382
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170306044
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170307582
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170308862
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170309572
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170310373
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170316516
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.format",1250170318012
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250170320090
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250170320201
+activated,editor,com.springsource.sts.config.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.config.ui.editors.SpringConfigEditor",1250170322856
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250170334115
+executed,command,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui.format.document",1250170340777
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250170346783
+started,bundle,org.springframework.ide.eclipse.batch,2.2.5.200906302108-CI-R3335-B388,"org.springframework.ide.eclipse.batch",1250170346875
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250170346905
+error,log,,,"Task repository link provider failed: ""null""",1250170346906

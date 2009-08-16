@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250170499875
+error,log,,,"Task repository link provider failed: ""null""",1250170499875
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250170500269
+error,log,,,"Task repository link provider failed: ""null""",1250170500269
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170500849
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170501524
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170502312
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170510471
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250170514823
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250170519147
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250170522012
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170569935
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170576600
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170578495
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170580023
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250170583549
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250170587322
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.format",1250170607204
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250170608134
+activated,editor,com.springsource.sts.config.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.config.ui.editors.SpringConfigEditor",1250170614181
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250170617439
+executed,command,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui.format.document",1250170618481
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170620886
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170635188
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250170643052

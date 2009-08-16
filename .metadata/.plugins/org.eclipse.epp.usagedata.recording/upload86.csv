@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Task repository link provider failed: ""null""",1250240638525
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250240638555
+executed,command,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1250240643485
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250240644709
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250240648112
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.moveLineUp",1250240650165
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.moveLineUp",1250240650331
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.moveLineUp",1250240650531
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.moveLineUp",1250240650705
+started,bundle,org.eclipse.mylyn.java.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.java.ui",1250240655290
+started,bundle,org.eclipse.pde.api.tools,1.0.100.v20090526,"org.eclipse.pde.api.tools",1250240655359
+started,bundle,org.eclipse.pde.api.tools.ui,1.0.100.v20090526,"org.eclipse.pde.api.tools.ui",1250240655361
+started,bundle,org.eclipse.jst.ws.jaxws.ui,0.5.2.v200904302140,"org.eclipse.jst.ws.jaxws.ui",1250240655365
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250240655699
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250240655715
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250240658705
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250240660393
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250240682028
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250240687121
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250240692069
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.format",1250240695218
+executed,command,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1250240697851
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250240709857
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250240711369
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250240775092

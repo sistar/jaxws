@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="">
+	</section>
+	<section name="org.eclipse.wst.wsdl.ui.preview">
+		<item value="351" key="org.eclipse.wst.wsdl.ui.previewDIALOG_Y_ORIGIN"/>
+		<item value="444" key="org.eclipse.wst.wsdl.ui.previewDIALOG_X_ORIGIN"/>
+	</section>
+</section>

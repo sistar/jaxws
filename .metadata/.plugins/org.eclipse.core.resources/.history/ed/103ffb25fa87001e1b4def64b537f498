@@ -1,0 +1,13 @@
+package de.opitz_consulting.demo;
+
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
+
+public class SimpleWSClientTest {
+
+	QName serviceName = new QName("http://demo.opitzconsulting.de/",
+			"DiscountCalculatorService");
+
+	Service service;
+
+}

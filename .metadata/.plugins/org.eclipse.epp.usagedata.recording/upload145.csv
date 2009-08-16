@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250316834213
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250316839423
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250316841166
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250316850887
+executed,command,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.debug",1250316853343
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250316856197
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250316857380
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250316857685
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250316857726
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250316858181
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250316859792
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250316862079
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250316873299
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250316876386
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1250316876662
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250316880669
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250316881921
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250316883907
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250316896514
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250316901125
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250316903629
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250316905983
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250317358730
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250317789573
+no handler,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.refresh",1250317792714

@@ -1,0 +1,12 @@
+package org.doubleit.service;
+
+import org.example.contract.doubleit.DoubleItPortType;
+
+public class DoubleItServiceImpl implements DoubleItPortType{
+
+	@Override
+	public int doubleIt(int numberToDouble) {
+		return numberToDouble*2;
+	}
+
+}

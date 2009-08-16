@@ -1,0 +1,5 @@
+package de.opitz_consulting.ws.security;
+
+public class ClientCallbackHandler {
+
+}

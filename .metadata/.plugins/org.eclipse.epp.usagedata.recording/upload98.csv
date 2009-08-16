@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250257992502
+error,log,,,"Resource is out of sync with the file system: '/double.It/pom.xml'.",1250257992891
+error,log,,,"null",1250257992895
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250257994310
+error,log,,,"Resource is out of sync with the file system: '/double.It/pom.xml'.",1250257995395
+error,log,,,"null",1250257995396
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250258004856
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250258005390
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250258015325
+error,log,,,"Plug-in 'org.maven.ide.eclipse.refactoring' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.maven.ide.eclipse.editor.RenameProjectAction",1250258019785
+error,log,,,"Plug-in 'org.eclipse.ajdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.eclipse.ajdt.ui.action.pushin",1250258019788
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258025484
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.100.v20090604,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1250258042961
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1250258042961
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258043073
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258048493
+closed,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250258052455
+closed,editor,com.springsource.sts.config.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.config.ui.editors.SpringConfigEditor",1250258052502
+closed,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250258052540
+closed,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250258052559
+closed,editor,org.maven.ide.eclipse.editor,0.9.8.200905041414,"org.maven.ide.eclipse.editor.MavenPomEditor",1250258052568
+closed,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250258052598
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.closeAll",1250258052608
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258052650
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250258066082

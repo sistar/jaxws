@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre" version="1.6.0_11">
+<bootpath>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/amd64/jrockit/jrockit1.6.0.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/amd64/jrockit/jmapi.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/amd64/jrockit/jmxmapi.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/amd64/jrockit/rmp.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/amd64/jrockit/latency.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/resources.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/rt.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/sunrsasign.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/jsse.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/jce.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/charsets.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/home/rsi/prg/jrmc-3.1.0-1.6.0" version="1.6.0_11">
+<bootpath>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/amd64/jrockit/jrockit1.6.0.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/amd64/jrockit/jmapi.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/amd64/jrockit/jmxmapi.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/amd64/jrockit/rmp.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/amd64/jrockit/latency.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/resources.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/rt.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/sunrsasign.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/jsse.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/jce.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/charsets.jar"/>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/rsi/prg/jrmc-3.1.0-1.6.0/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Programme\Java\jdk1.6.0_16" version="1.6.0_16">
+<bootpath>
+<entry path="C:\Programme\Java\jdk1.6.0_16\jre\lib\resources.jar"/>
+<entry path="C:\Programme\Java\jdk1.6.0_16\jre\lib\rt.jar"/>
+<entry path="C:\Programme\Java\jdk1.6.0_16\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Programme\Java\jdk1.6.0_16\jre\lib\jsse.jar"/>
+<entry path="C:\Programme\Java\jdk1.6.0_16\jre\lib\jce.jar"/>
+<entry path="C:\Programme\Java\jdk1.6.0_16\jre\lib\charsets.jar"/>
+<entry path="C:\Programme\Java\jdk1.6.0_16\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Programme\Java\jdk1.6.0_16\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Programme\Java\jdk1.6.0_16\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

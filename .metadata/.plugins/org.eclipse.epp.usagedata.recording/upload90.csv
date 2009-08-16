@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.0.v200904240436,"org.eclipse.wst.xsl.debug.ui",1250253866217
+started,bundle,org.eclipse.tptp.platform.integration.pde,4.4.200.v200906091631,"org.eclipse.tptp.platform.integration.pde",1250253866313
+activated,view,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit.ResultView",1250253871251
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250253871888
+error,log,,,"Invalid preference page path: FUSE Services Framework",1250253879347
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250253879938
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250253882046
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250253888419
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250253891405
+started,bundle,org.eclipse.help.base,3.4.0.v200906111540,"org.eclipse.help.base",1250253913020
+started,bundle,org.eclipse.help.ui,3.4.0.v20090528,"org.eclipse.help.ui",1250253913048
+started,bundle,org.eclipse.ui.cheatsheets,3.3.200.v20090526,"org.eclipse.ui.cheatsheets",1250253913439
+started,bundle,org.eclipse.ui.intro,3.3.0.v20090526,"org.eclipse.ui.intro",1250253913472
+error,log,,,"Error reading help table of contents file /""com.springsource.com.amazonaws.eclipse.ec2/toc.xml"" (skipping file)",1250253913713
+error,log,,,"Error reading help table of contents file /""com.springsource.com.amazonaws.eclipse.ec2/tocconcepts.xml"" (skipping file)",1250253913714
+error,log,,,"Error reading help table of contents file /""com.springsource.com.amazonaws.eclipse.ec2/tocgettingstarted.xml"" (skipping file)",1250253913714
+error,log,,,"Error reading help table of contents file /""com.springsource.com.amazonaws.eclipse.ec2/toctasks.xml"" (skipping file)",1250253913714
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.properties",1250253921608
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250253921676
+activated,view,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit.ResultView",1250253924023
+executed,command,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit.junitShortcut.rerunLast",1250253924116
+started,bundle,org.eclipse.wst.xsl.launching,1.0.0.v200904241348,"org.eclipse.wst.xsl.launching",1250253933357
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250253935477
+error,log,,,"Help documentation could not be indexed completely.",1250253948711
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250253960179

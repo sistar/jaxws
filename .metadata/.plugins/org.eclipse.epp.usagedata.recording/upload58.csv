@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250176196732
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250176200752
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250176204771
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250176221587
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250176222955
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250176238253
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250176239860
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250176242499
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.RunLast",1250176242532
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250176301684
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250176302184
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250176302567
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250176302723
+started,bundle,org.eclipse.hyades.execution,4.4.300.v200905160100,"org.eclipse.hyades.execution",1250176312151
+started,bundle,org.eclipse.tptp.platform.models.hierarchy,4.6.0.v200905130952,"org.eclipse.tptp.platform.models.hierarchy",1250176312284
+started,bundle,org.eclipse.tptp.platform.common.ui,4.4.200.v200906031533,"org.eclipse.tptp.platform.common.ui",1250176312420
+started,bundle,org.eclipse.tptp.platform.iac.administrator,4.4.300.v200905160100,"org.eclipse.tptp.platform.iac.administrator",1250176312433
+error,log,,,"Cannot resolve IAC bundle ID org.eclipse.tptp.platform.ac.linux_em64t",1250176312461
+error,log,,,"Cannot resolve IAC bundle ID org.eclipse.tptp.platform.ac.linux_em64t",1250176312462
+error,log,,,"Access to IAC configuration file is denied.",1250176312462
+started,bundle,org.eclipse.tptp.platform.common,4.3.300.v200905160100,"org.eclipse.tptp.platform.common",1250176312462
+started,bundle,org.eclipse.hyades.trace.ui,4.5.0.v200905281551,"org.eclipse.hyades.trace.ui",1250176317514
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250176317615
+started,bundle,org.eclipse.tptp.platform.probekit.launch,4.4.200.v200901090100,"org.eclipse.tptp.platform.probekit.launch",1250176317820
+started,bundle,org.eclipse.hyades.probekit,4.2.500.v200906121434,"org.eclipse.hyades.probekit",1250176317870

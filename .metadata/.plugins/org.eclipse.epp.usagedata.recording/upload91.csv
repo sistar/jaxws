@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.internet.monitor.core,1.0.404.v20090609,"org.eclipse.wst.internet.monitor.core",1250253973236
+started,bundle,org.eclipse.wst.internet.monitor.ui,1.0.304.v200805140145,"org.eclipse.wst.internet.monitor.ui",1250253973266
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250253983351
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250253987390
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.properties",1250254006528
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250254006604
+error,log,,,"Category com.collabnet.desktop not found for view com.collabnet.subversion.merge.views.MergeResultsView.  This view added to 'Other' category.",1250254016635
+error,log,,,"Category com.collabnet.desktop not found for view com.collabnet.subversion.merge.views.MergeResultsView.  This view added to 'Other' category.",1250254016662
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250254016901
+opened,view,org.eclipse.wst.internet.monitor.ui,1.0.304.v200805140145,"org.eclipse.wst.internet.monitor.view",1250254023854
+activated,view,org.eclipse.wst.internet.monitor.ui,1.0.304.v200805140145,"org.eclipse.wst.internet.monitor.view",1250254023873
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.views.showView",1250254023875
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.views.showView",1250254023875
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250254023943
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1250254029974
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250254032630
+activated,view,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit.ResultView",1250254034135
+executed,command,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit.junitShortcut.rerunLast",1250254034135
+activated,view,org.eclipse.wst.internet.monitor.ui,1.0.304.v200805140145,"org.eclipse.wst.internet.monitor.view",1250254040980
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250254117191
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250254750792
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250254767906
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250254770462
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1250254776309
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250254794375

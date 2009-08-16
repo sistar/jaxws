@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250162822200
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250162823709
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250162832844
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.RunLast",1250162833820
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250162847141
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250162850650
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250162852162
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250162852723
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163267716
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163281822
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250163309558
+no handler,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.undo",1250163311160
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250163333455
+started,bundle,org.eclipse.jst.ws.cxf.consumption.core,0.3.4.v200904281335,"org.eclipse.jst.ws.cxf.consumption.core",1250163350998
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250163490499
+started,bundle,org.eclipse.wst.internet.monitor.core,1.0.404.v20090609,"org.eclipse.wst.internet.monitor.core",1250163517496
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.newWizard",1250163517740
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163517823
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163530761
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.properties",1250163546097
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163546184
+error,log,,,"Plug-in 'org.eclipse.ajdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.eclipse.ajdt.ui.action.pushin",1250163550418
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163567432
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.properties",1250163626348
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250163626464

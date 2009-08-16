@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.tigris.subversion.subclipse.core,1.6.2,"org.tigris.subversion.subclipse.core",1250158133754
+os,sysinfo,,,"linux",1250158133761
+arch,sysinfo,,,"x86_64",1250158133761
+ws,sysinfo,,,"gtk",1250158133761
+locale,sysinfo,,,"de_DE",1250158133761
+processors,sysinfo,,,"2",1250158133761
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1250158133761
+java.runtime.version,sysinfo,,,"1.6.0_11-b03",1250158133761
+java.specification.name,sysinfo,,,"Java Platform API Specification",1250158133761
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1250158133761
+java.specification.version,sysinfo,,,"1.6",1250158133761
+java.vendor,sysinfo,,,"BEA Systems, Inc.",1250158133761
+java.version,sysinfo,,,"1.6.0_11",1250158133761
+java.vm.info,sysinfo,,,"compiled mode",1250158133761
+java.vm.name,sysinfo,,,"BEA JRockit(R)",1250158133761
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1250158133761
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1250158133761
+java.vm.specification.version,sysinfo,,,"1.0",1250158133761
+java.vm.vendor,sysinfo,,,"BEA Systems, Inc.",1250158133761
+java.vm.version,sysinfo,,,"R27.6.3-40_o-112056-1.6.0_11-20090318-2103-linux-x86_64",1250158133761
+started,bundle,org.tigris.subversion.subclipse.ui,1.6.2,"org.tigris.subversion.subclipse.ui",1250158133781
+started,bundle,com.springsource.sts.core,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.core",1250158143616
+started,bundle,com.springsource.sts.ide.configurator,2.0.0.200907010821-CI-R3299-B298,"com.springsource.sts.ide.configurator",1250158143630
+started,bundle,org.eclipse.wst.server.core,1.1.101.v20090515,"org.eclipse.wst.server.core",1250158143715
+started,bundle,com.springsource.sts.ide.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.ide.ui",1250158143738

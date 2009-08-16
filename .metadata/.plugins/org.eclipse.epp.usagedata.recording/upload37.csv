@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250170120646
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250170137465
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250170141007
+executed,command,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui.format.document",1250170143529
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250170145099
+closed,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1250170157502
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170163680
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1250170172759
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1250170173246
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.navigate.open.type",1250170173324
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170173402
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250170177556
+error,log,,,"Plug-in 'org.eclipse.ajdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.jdt.ui.refactoring.menu' is invalid): org.eclipse.ajdt.ui.action.pushin",1250170177569
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170192244
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170195940
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1250170200025
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.show.outline",1250170201785
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170201842
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170206627
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1250170209933
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170210612
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170216912
+activated,editor,com.springsource.sts.config.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.config.ui.editors.SpringConfigEditor",1250170219031
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1250170222084
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250170226990

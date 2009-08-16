@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Task repository link provider failed: ""null""",1250261589082
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250261589090
+error,log,,,"Task repository link provider failed: ""null""",1250261589090
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.mylyn.tasks.ui"".",1250261589106
+error,log,,,"Task repository link provider failed: ""null""",1250261589107
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250261589378
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1250261624993
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250261649094
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250261816555
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.refresh",1250261820788
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250261821369
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250261821870
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250261828459
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.properties",1250261839069
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250261839162
+error,log,,,"Unable to configure double.it.service",1250261849352
+started,bundle,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.resources",1250261862249
+started,bundle,org.eclipse.jst.jee.ui,1.0.200.v200905242144,"org.eclipse.jst.jee.ui",1250261862585
+started,bundle,org.eclipse.jst.servlet.ui,1.1.300.v200902191739,"org.eclipse.jst.servlet.ui",1250261862725
+opened,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1250261862954
+activated,perspective,org.eclipse.jst.j2ee.ui,1.1.300.v200905132034,"org.eclipse.jst.j2ee.J2EEPerspective",1250261863191
+activated,editor,org.eclipse.wst.xml.ui,1.1.0.v200905242047,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1250261863701
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1250261866816
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1250261881885
+activated,editor,org.eclipse.wst.xml.ui,1.1.0.v200905242047,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1250261881981

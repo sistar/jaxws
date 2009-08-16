@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to &apos;SimpleWSClient/src/de.opitz_consulting.demo&apos;&#x0A;- Original project: &apos;SimpleWS&apos;&#x0A;- Destination element: &apos;SimpleWSClient/src/de.opitz_consulting.demo&apos;&#x0A;- Original element: &apos;de.opitzconsulting.demo.CustDiscountCalculation.java&apos;" description="Copy compilation unit" destination="=SimpleWSClient/src&lt;de.opitz_consulting.demo" element1="/src&lt;de.opitzconsulting.demo{CustDiscountCalculation.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1250162497915" units="1" version="1.0"/>
+</session>

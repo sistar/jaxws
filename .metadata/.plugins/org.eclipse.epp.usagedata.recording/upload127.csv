@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250263146150
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250263153591
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250263170910
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250263172879
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250263174039
+activated,editor,org.eclipse.wst.wsdl.ui,1.2.202.v200904271449,"org.eclipse.wst.wsdl.ui.internal.WSDLEditor",1250263194577
+activated,editor,com.springsource.sts.config.ui,2.1.0.200907010821-CI-R3299-B298,"com.springsource.sts.config.ui.editors.SpringConfigEditor",1250263202410
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1250263204812
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1250263213404
+opened,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.AllMarkersView",1250263228089
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1250263232450
+executed,command,org.maven.ide.eclipse.launching,0.9.8.200905041413,"org.maven.ide.eclipse.pomFileAction.run",1250263236746
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250263266608
+started,bundle,org.eclipse.jst.server.generic.core,1.0.505.v20090529,"org.eclipse.jst.server.generic.core",1250263266770
+started,bundle,org.eclipse.jst.server.preview.adapter,1.1.0.v20090311b,"org.eclipse.jst.server.preview.adapter",1250263266819
+executed,command,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.launchShortcut.run",1250263276578
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250263276702
+error,log,,,"Task failed",1250263276731
+error,log,,,"Publishing failed with multiple errors",1250263276753
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250263277359
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250263293226
+activated,view,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui.ServersView",1250263295902
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1250263298133
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.refresh",1250263299488
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250263308236
