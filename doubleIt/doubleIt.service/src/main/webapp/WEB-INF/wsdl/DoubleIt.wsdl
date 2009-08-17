@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:tns="http://demo.numiga.de/contract" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:dm="http://numiga.de/doppler/datenmodell"
+	xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://demo.numiga.de/contract"
+	name="DopplerImplService">
+	<types>
+		<xsd:schema>
+			<xsd:import namespace="http://numiga.de/doppler/datenmodell"
+				schemaLocation="doppler.xsd"></xsd:import>
+		</xsd:schema>
+	</types>
+	<message name="verdopple">
+		<part name="parameters" element="dm:verdopple"></part>
+	</message>
+	<message name="verdoppleResponse">
+		<part name="parameters" element="dm:verdoppleResponse"></part>
+	</message>
+	<portType name="DopplerImpl">
+		<operation name="verdopple">
+			<input message="tns:verdopple"></input>
+			<output message="tns:verdoppleResponse"></output>
+		</operation>
+
+	</portType>
+	<binding name="DopplerImplPortBinding" type="tns:DopplerImpl">
+		<soap:binding transport="http://schemas.xmlsoap.org/soap/http"
+			style="document"></soap:binding>
+		<operation name="verdopple">
+			<soap:operation soapAction=""></soap:operation>
+			<input>
+				<soap:body use="literal"></soap:body>
+			</input>
+			<output>
+				<soap:body use="literal"></soap:body>
+			</output>
+		</operation>
+	</binding>
+	<service name="DopplerImplService">
+		<port name="DopplerImplPort" binding="tns:DopplerImplPortBinding">
+			<soap:address location="http://localhost:8080/doppler"></soap:address>
+		</port>
+
+	</service>
+</definitions>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://numiga.de/doppler/datenmodell"
+	xmlns:tns="http://numiga.de/doppler/datenmodell" elementFormDefault="qualified">
+	<element name="verdopple" type="tns:verdopple" />
+	<element name="verdoppleResponse" type="tns:verdoppleResponse" />
+
+	<complexType name="verdopple">
+		<sequence>
+			<element name="eingabe" type="tns:eingabeTyp" />
+		</sequence>
+	</complexType>
+
+	<complexType name="verdoppleResponse">
+		<sequence>
+			<element name="return" type="int" />
+		</sequence>
+	</complexType>
+
+	<simpleType name="eingabeTyp">
+
+		<restriction base="nonNegativeInteger">
+			<maxExclusive value="10"></maxExclusive>
+		</restriction>
+	</simpleType>
+</schema>
