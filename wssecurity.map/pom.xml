@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 	<name>ws-security beispiel mit map</name>
 	<properties>
-		<cxf.version>2.2.3</cxf.version>
+		<cxf.version>2.6.12</cxf.version>
 		<java.version>1.6</java.version>
 		<spring.version>2.5.5</spring.version>
 	</properties>
