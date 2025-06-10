@@ -14,7 +14,7 @@ COPY double.it/double.it.client/pom.xml ./double.it/double.it.client/
 COPY ws.security.sample/pom.xml ./ws.security.sample/
 COPY wssecurity.map/pom.xml ./wssecurity.map/
 COPY doubleIt/pom.xml ./doubleIt/
-COPY doubleIt/doubleIt.service/pom.xml ./doubleIt/doubleIt.service/ 2>/dev/null || true
+COPY doubleIt/doubleIt.service/pom.xml ./doubleIt/doubleIt.service/
 
 # Download dependencies for all projects
 RUN cd double.it && mvn dependency:go-offline -B
