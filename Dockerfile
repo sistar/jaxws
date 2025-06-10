@@ -76,7 +76,7 @@ RUN echo "Packaging all Maven projects..." && \
     done
 
 # Final runtime stage with Tomcat for deployment testing
-FROM tomcat:8.5-jdk8 AS runtime
+FROM tomcat:10.0-jdk8 AS runtime
 
 # Copy WAR files to Tomcat webapps (only if they exist)
 COPY --from=packager /workspace /tmp/workspace
