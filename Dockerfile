@@ -1,5 +1,5 @@
 # Multi-stage Dockerfile for JAX-WS Maven projects testing
-FROM maven:3.8-openjdk-8 AS builder
+FROM maven:3.8-openjdk-18 AS builder
 
 # Set working directory
 WORKDIR /workspace
@@ -40,7 +40,7 @@ RUN echo "Building all Maven projects..." && \
     done
 
 # Test stage
-FROM maven:3.8-openjdk-8 AS tester
+FROM maven:3.8-openjdk-18 AS tester
 
 WORKDIR /workspace
 COPY --from=builder /root/.m2 /root/.m2
@@ -58,7 +58,7 @@ RUN echo "Running tests for all Maven projects..." && \
     done
 
 # Package stage
-FROM maven:3.8-openjdk-8 AS packager
+FROM maven:3.8-openjdk-18 AS packager
 
 WORKDIR /workspace
 COPY --from=builder /root/.m2 /root/.m2
