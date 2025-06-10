@@ -75,11 +75,10 @@ RUN echo "Packaging all Maven projects..." && \
 # Final runtime stage with Tomcat for deployment testing
 FROM tomcat:8.5-jdk8 AS runtime
 
-# Copy WAR files to Tomcat webapps
-COPY --from=packager /workspace/double.it/double.it.service/target/*.war /usr/local/tomcat/webapps/
-COPY --from=packager /workspace/doubleIt/doubleIt.service/target/*.war /usr/local/tomcat/webapps/ 2>/dev/null || true
-COPY --from=packager /workspace/ws.security.sample/target/*.war /usr/local/tomcat/webapps/ 2>/dev/null || true
-COPY --from=packager /workspace/wssecurity.map/target/*.war /usr/local/tomcat/webapps/ 2>/dev/null || true
+# Copy WAR files to Tomcat webapps (only if they exist)
+COPY --from=packager /workspace /tmp/workspace
+RUN find /tmp/workspace -name "*.war" -exec cp {} /usr/local/tomcat/webapps/ \; || echo "No WAR files found" && \
+    rm -rf /tmp/workspace
 
 # Copy X.509 certificates for runtime WS-Security
 COPY --from=builder /workspace/x509 /opt/x509/
