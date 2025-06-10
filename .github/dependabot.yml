@@ -1,0 +1,116 @@
+version: 2
+updates:
+  # Monitor Maven dependencies in double.it multi-module project
+  - package-ecosystem: "maven"
+    directory: "/double.it"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    target-branch: "master"
+    reviewers:
+      - "@ralf.sigmund"
+    labels:
+      - "dependencies"
+      - "java"
+      - "maven"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+
+  # Monitor Maven dependencies in doubleIt project
+  - package-ecosystem: "maven"
+    directory: "/doubleIt"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    target-branch: "master"
+    reviewers:
+      - "@ralf.sigmund"
+    labels:
+      - "dependencies"
+      - "java"
+      - "maven"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+
+  # Monitor Maven dependencies in ws.security.sample
+  - package-ecosystem: "maven"
+    directory: "/ws.security.sample"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    target-branch: "master"
+    reviewers:
+      - "@ralf.sigmund"
+    labels:
+      - "dependencies"
+      - "java"
+      - "maven"
+      - "security"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+
+  # Monitor Maven dependencies in wssecurity.map
+  - package-ecosystem: "maven"
+    directory: "/wssecurity.map"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    target-branch: "master"
+    reviewers:
+      - "@ralf.sigmund"
+    labels:
+      - "dependencies"
+      - "java"
+      - "maven"
+      - "security"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+
+  # Monitor GitHub Actions workflow dependencies
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 3
+    target-branch: "master"
+    reviewers:
+      - "@ralf.sigmund"
+    labels:
+      - "dependencies"
+      - "github-actions"
+      - "ci"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+
+  # Monitor Docker dependencies
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 3
+    target-branch: "master"
+    reviewers:
+      - "@ralf.sigmund"
+    labels:
+      - "dependencies"
+      - "docker"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"

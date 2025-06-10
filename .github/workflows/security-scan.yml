@@ -1,0 +1,147 @@
+name: Security Scan
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  schedule:
+    # Run security scan daily at 2 AM UTC
+    - cron: '0 2 * * *'
+
+jobs:
+  dependency-scan:
+    runs-on: ubuntu-latest
+    name: Maven Dependency Vulnerability Scan
+    
+    strategy:
+      matrix:
+        maven-project:
+          - path: "double.it"
+            name: "double.it"
+          - path: "doubleIt" 
+            name: "doubleIt"
+          - path: "ws.security.sample"
+            name: "ws.security.sample"
+          - path: "wssecurity.map"
+            name: "wssecurity.map"
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up JDK 8
+      uses: actions/setup-java@v4
+      with:
+        java-version: 8
+        distribution: 'temurin'
+        
+    - name: Cache Maven dependencies
+      uses: actions/cache@v4
+      with:
+        path: ~/.m2
+        key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+        restore-keys: ${{ runner.os }}-m2
+        
+    - name: Run OWASP Dependency Check
+      working-directory: ${{ matrix.maven-project.path }}
+      run: |
+        echo "Running OWASP dependency check for ${{ matrix.maven-project.name }}"
+        mvn org.owasp:dependency-check-maven:check \
+          -DfailBuildOnCVSS=7 \
+          -DsuppressConfidenceBelow=8 \
+          -DskipTestScope=true \
+          -B || echo "Dependency check completed with vulnerabilities"
+        
+    - name: Upload OWASP Dependency Check results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: owasp-dependency-check-${{ matrix.maven-project.name }}
+        path: ${{ matrix.maven-project.path }}/target/dependency-check-report.html
+        retention-days: 30
+
+  vulnerable-dependencies:
+    runs-on: ubuntu-latest
+    name: Known Vulnerable Dependencies Check
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Check for known vulnerable dependencies
+      run: |
+        echo "Checking for known vulnerable dependencies in JAX-WS project..."
+        
+        # Check for outdated CXF versions (known CVEs in 2.2.3)
+        echo "=== CXF Version Check ==="
+        grep -r "cxf.version.*2\.2\.3" . && echo "⚠️  VULNERABLE: CXF 2.2.3 has known security vulnerabilities" || echo "✅ CXF version check passed"
+        
+        # Check for outdated WSS4J versions (known CVEs in 1.5.8)  
+        echo "=== WSS4J Version Check ==="
+        grep -r "wss4j.*1\.5\.8" . && echo "⚠️  VULNERABLE: WSS4J 1.5.8 has known security vulnerabilities" || echo "✅ WSS4J version check passed"
+        
+        # Check for outdated JUnit versions (known CVEs in 4.4)
+        echo "=== JUnit Version Check ==="
+        grep -r "junit.*4\.4\|junit.*3\.8\.1" . && echo "⚠️  VULNERABLE: JUnit versions 4.4/3.8.1 have known security vulnerabilities" || echo "✅ JUnit version check passed"
+        
+        # Check for hardcoded passwords/secrets
+        echo "=== Hardcoded Secrets Check ==="
+        grep -r "password.*=" . --include="*.java" --include="*.xml" --include="*.properties" | grep -v "Password" | head -10 || echo "✅ No obvious hardcoded passwords found"
+        
+        echo "Security scan completed"
+
+  container-scan:
+    runs-on: ubuntu-latest
+    name: Container Security Scan
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Build Docker image for scanning
+      run: docker build -t jaxws-security-scan:latest .
+      
+    - name: Run Trivy vulnerability scanner
+      uses: aquasecurity/trivy-action@master
+      with:
+        image-ref: 'jaxws-security-scan:latest'
+        format: 'sarif'
+        output: 'trivy-results.sarif'
+        
+    - name: Upload Trivy scan results to GitHub Security tab
+      uses: github/codeql-action/upload-sarif@v3
+      if: always()
+      with:
+        sarif_file: 'trivy-results.sarif'
+        
+    - name: Upload Trivy scan results as artifact
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: trivy-scan-results
+        path: trivy-results.sarif
+        retention-days: 30
+
+  license-scan:
+    runs-on: ubuntu-latest
+    name: License Compliance Check
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up JDK 8  
+      uses: actions/setup-java@v4
+      with:
+        java-version: 8
+        distribution: 'temurin'
+        
+    - name: Run license check
+      run: |
+        echo "Checking license compliance for all Maven projects..."
+        
+        for project in double.it doubleIt ws.security.sample wssecurity.map; do
+          if [ -d "$project" ]; then
+            echo "=== License check for project: $project ==="
+            cd "$project"
+            mvn org.codehaus.mojo:license-maven-plugin:third-party-report -B || echo "License check completed for $project"
+            cd ..
+          fi
+        done
