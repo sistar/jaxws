@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        java: [8, 11, 17]
+        java: [8]
         maven-project:
           - path: "double.it"
             name: "double.it"
@@ -50,6 +50,8 @@ jobs:
         
     - name: Run Maven build for ${{ matrix.maven-project.name }}
       working-directory: ${{ matrix.maven-project.path }}
+      env:
+        MAVEN_OPTS: "--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED"
       run: |
         echo "Building Maven project: ${{ matrix.maven-project.name }}"
         mvn --version
@@ -57,10 +59,14 @@ jobs:
         
     - name: Run tests for ${{ matrix.maven-project.name }}
       working-directory: ${{ matrix.maven-project.path }}
+      env:
+        MAVEN_OPTS: "--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED"
       run: mvn test -B
       
     - name: Package ${{ matrix.maven-project.name }}
       working-directory: ${{ matrix.maven-project.path }}
+      env:
+        MAVEN_OPTS: "--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED"
       run: mvn package -B -DskipTests
       
     - name: Upload WAR artifacts

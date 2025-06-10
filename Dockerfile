@@ -16,6 +16,9 @@ COPY wssecurity.map/pom.xml ./wssecurity.map/
 COPY doubleIt/pom.xml ./doubleIt/
 COPY doubleIt/doubleIt.service/pom.xml ./doubleIt/doubleIt.service/
 
+# Set Maven options for Java module compatibility with legacy CXF
+ENV MAVEN_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED"
+
 # Download dependencies for all projects
 RUN cd double.it && mvn dependency:go-offline -B
 RUN cd ws.security.sample && mvn dependency:go-offline -B  
