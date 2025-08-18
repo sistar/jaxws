@@ -25,7 +25,7 @@ jobs:
     name: Test ${{ matrix.maven-project.name }} (Java ${{ matrix.java }})
     
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     
     - name: Set up JDK ${{ matrix.java }}
       uses: actions/setup-java@v4
@@ -84,7 +84,7 @@ jobs:
     name: Test Legacy Eclipse Projects
     
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     
     - name: Set up JDK 8
       uses: actions/setup-java@v4
@@ -109,7 +109,7 @@ jobs:
     name: Docker Integration Tests
     
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     
     - name: Build Docker test image
       run: docker build -f Dockerfile -t jaxws-test .
